@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+     <script>
+
+        // const Company={
+        //     Name: "Amazon",
+        //     CEO: "Andy Jassy"
+        // }
+        // Company.CEO="Samartha Shrestha";
+        //  console.log(Company);
+
+
+        // console.log(Company);
+        // console.log(Company.Name);
+        // console.log(Company.CEO);
+
+        // Company.newProperty=true;
+        // console.log(Company);
+
+        // delete Company.newProperty;
+        // console.log(Company);
+
+
+        // const Nepal={
+        //     capital:"Kathamandu",
+        //     population:30000000,
+        //     MetropolitanCity:"Biratnagar"
+
+        // };
+
+        // Nepal.newProperty="Hi there!";
+        // console.log(Nepal);
+
+
+        // delete Nepal.newProperty;
+        // console.log(Nepal);
+
+
+        // console.log(Nepal);
+        // console.log(Nepal.capital);
+        // console.log(Nepal.population);
+        // console.log(Nepal.MetropolitanCity);
+/*
+        const product2={
+              name:'Digneyt Laptop',
+              CEO:'samartha shrestha',
+
+              rating:{
+                  star:5,
+                  count:1000,
+              },
+
+              fun :function Hero(FirstName,LastName){
+                     console.log("My name is " ,FirstName + " " + LastName)
+              },
+              };
+        console.log(product2);
+        console.log(product2.name);
+        console.log(product2['name']);
+        console.log(product2['CEO']);
+        console.log(product2.rating.star);
+        console.log(product2.rating.count);
+        product2.fun('Samartha','Shrestha');
+       console.log( JSON.stringify(product2));
+
+       const JSONProduct=JSON.stringify(product2);
+        console.log(JSON.parse(JSONProduct));
+ */
+       
+         console.log('hello World THis is a beautiful day today and i am gonna enjoy it'.length );
+         console.log('hello World THis is a beautiful day today and i am gonna enjoy it'.toUpperCase());
+
+   
+
+         const obj1={
+            message:'hello'
+         };
+
+         const obj2=obj1;
+         obj1.message='Hyper Thinking';
+         console.log(obj1);
+         console.log(obj2);
+
+        const obj3 ={
+            message:'Hyper Thinking'
+         };
+        console.log(obj3===obj1);
+
+        console.log(obj2===obj1);
+
+        const obj4={
+            message:'Hyper Thinking',
+            price:1000,
+            details:{
+                manufacture:'Intel',
+                year:2024,
+            }
+        };
+        const {message,price,details}=obj4;
+        console.log(
+            (message));
+        console.log(price);
+        console.log(details);
+        
+        const obj5={
+            // message:message,
+            // price:price,
+            // details:details
+            message
+        };
+        console.log(obj5);
+    </script>
+</body>
+</html>
